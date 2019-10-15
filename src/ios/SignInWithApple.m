@@ -115,6 +115,7 @@
     @"state" : appleIDCredential.state ? appleIDCredential.state : @"",
     @"fullName" : fullName ? fullName : @{},
     @"email" : appleIDCredential.email ? appleIDCredential.email : @"",
+    @"authorizationCode" : appleIDCredential.authorizationCode ? appleIDCredential.authorizationCode : @"",
     @"identityToken" : identityToken
   };
 
